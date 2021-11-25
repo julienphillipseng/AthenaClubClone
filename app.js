@@ -9,7 +9,6 @@ const Products = {
             try {
                 const res = await fetch("http://127.0.0.1:5000/products")
                 const { products } = await res.json()
-                console.log(products)
                 this.products = products
             }
             catch (error) {

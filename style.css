@@ -11,6 +11,7 @@
   font-style: normal;
 }
 
+html,
 body {
   font-family: "brownregular";
 }
@@ -40,7 +41,7 @@ body {
   transition: all 0.25s ease-out;
 }
 
-#divm > img {
+#navbar-logo > img {
   padding: 1.5rem 0;
   max-width: 8.8rem;
   height: auto;
@@ -82,8 +83,6 @@ body {
 }
 
 .product-description {
-  /* padding */
-  /* padding: 0 4rem; */
   width: 300px;
   margin: 0 auto;
   padding: 0 1rem;
@@ -102,10 +101,8 @@ body {
 }
 
 .rating {
-  /* width: 0%; */
   overflow: hidden;
   white-space: nowrap;
-  /* margin: 0 auto; */
 }
 
 .rating span {
